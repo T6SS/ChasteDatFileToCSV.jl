@@ -1,3 +1,4 @@
+module ChasteDatFileToCSV
 ##################################################################
 # Filename  : ChasteDatFileToCSV.jl
 # Author    : Jonathan Miller
@@ -8,7 +9,7 @@
 ##################################################################
 
 
-module ChasteDatFileToCSV
+
 
     using Reexport
     @reexport using DelimitedFiles
