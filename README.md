@@ -13,3 +13,6 @@ Chaste (at least in Cell-Based) outputs `.dat` files. Each line is the time and 
 
 This repository (still being worked on) takes an arbitrary `.dat` file, along with the corresponding type, and non-time columns and outputs a csv.
 
+If the `path` and `struct` is defined as found in `src/ChasteDatFileToCSV.jl` then just run `get_cell_dataframe(path)` and the appropriate data frame will be outputted.
+
+More work to come.
