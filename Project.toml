@@ -13,6 +13,8 @@ Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
 [compat]
 DataFramesMeta = "0.14"
+DelimitedFiles = "1"
+Chain = "0.5"
 julia = "1.6"
 
 [extras]
