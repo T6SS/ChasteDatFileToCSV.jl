@@ -8,12 +8,12 @@ module ChasteDatFileToCSV
 #           : and write to CSV files
 ##################################################################
 
-    using Reexport
-    @reexport using DelimitedFiles
-    @reexport using Revise
-    @reexport using Chain
-    @reexport using DataFrames
-    @reexport using DataFramesMeta
+
+    using DelimitedFiles
+    using Revise
+    using Chain
+    using DataFrames
+    using DataFramesMeta
 
     export  
         GenericDatToMat,
