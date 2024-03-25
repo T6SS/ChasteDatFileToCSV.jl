@@ -1,5 +1,8 @@
+# Define an abstract type
+abstract type AbstractGenericDatToMat end
+
 # Define a generic struct for data to matrix conversion
-struct GenericDatToMat end
+struct GenericDatToMat <: AbstractGenericDatToMat end
 
 # Define a struct for cell age properties
 struct CellAgeProperties
